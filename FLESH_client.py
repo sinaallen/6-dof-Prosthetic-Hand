@@ -1,3 +1,7 @@
+## Sina Allen
+## March 29, 2025
+## Client UI for controlling 6 dof robotic hand
+
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog, filedialog
 import serial
