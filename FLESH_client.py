@@ -403,7 +403,7 @@ def main():
 
     # Setup GUI with modern light theme
     root = tk.Tk()
-    root.title("F.L.E.S.H. Client")
+    root.title("Robotic Hand Client")
     
     style = ttk.Style()
     style.theme_use('clam')
@@ -482,7 +482,7 @@ def main():
         status_frame = ttk.Frame(actuator_panel)
         status_frame.pack(fill=tk.X, pady=5)
         
-        pos_labels[id] = ttk.Label(status_frame, text="Position: MIN_POS", anchor="center")
+        pos_labels[id] = ttk.Label(status_frame, text="Position: 0", anchor="center")
         pos_labels[id].pack(fill=tk.X, pady=2)
         
         temp_labels[id] = ttk.Label(status_frame, text="Temp: 0°C", anchor="center")
